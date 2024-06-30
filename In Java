@@ -1,0 +1,105 @@
+Type1:- 
+
+public class Day1 
+{
+  public static void main (String[] args) {
+    for (int i=0;i<5;i++)
+    {
+      for (int j=0;j<5;j++)
+      {
+        System.out.print("*");
+      }
+      System.out.println();
+    }
+  }
+}
+
+output :- 
+*****
+*****
+*****
+*****
+*****
+
+type2:- 
+
+public class Day1 
+{
+  public static void main (String[] args) {
+    for (int i=0;i<5;i++)
+    {
+      for (int j=0;j<5;j++)
+      {
+        System.out.print(j+1);
+      }
+      System.out.println();
+    }
+  }
+}
+
+output:-
+
+12345
+12345
+12345
+12345
+12345
+
+TYPE 3:-
+
+public class Day1 
+{
+  public static void main (String[] args) {
+    for (int i=0;i<5;i++)
+    {
+      for (int j=0;j<5;j++)
+      {
+        System.out.print(i+1 +" ");
+      }
+      System.out.println();
+    }
+  }
+}
+
+output - 
+1 1 1 1 1 
+2 2 2 2 2 
+3 3 3 3 3 
+4 4 4 4 4 
+5 5 5 5 5 
+
+type4:- 
+
+public class pattern
+{
+  public static void main (String[] args)
+  {
+    int n=5;
+ 
+    for (int i=0;i<5;i++)
+    {
+      for(int j=0;j<5;j++)
+      {
+        if(i==0 || i==n-1 || j==0 || j==n-1)
+        {
+          System.out.print("*");
+        }
+        else
+        {
+          System.out.print(" ");
+        }
+        
+      }
+      System.out.println();
+    }
+  }
+}
+
+output - 
+
+*****
+*   *
+*   *
+*   *
+*****
+
